@@ -1,0 +1,19 @@
+{
+  "name": "my-ai-discord-bot",
+  "version": "1.2.0",
+  "description": "AI Discord bot - Tsundere personality, Groq + Upstash Redis, deploy on Render",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.31.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.7.0"
+  }
+}
